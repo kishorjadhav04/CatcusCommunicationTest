@@ -1,0 +1,281 @@
+<style>
+      body{
+      padding: .5rem 1rem;
+      }
+      <!-- Font  start-->
+      @font-face {
+      font-family: 'Roboto';
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-Black.ttf")  format('truetype');
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-BlackItalic.ttf")  format('truetype');
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-Bold.ttf")  format('truetype');
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-BoldItalic.ttf")  format('truetype');
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-Italic.ttf")  format('truetype');
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-Light.ttf")  format('truetype');	
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-LightUtalic.ttf")  format('truetype');	
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-Medium.ttf")  format('truetype');	
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-MediumItalic.ttf")  format('truetype');	
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-Regular.ttf")  format('truetype');	
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-Thin.ttf")  format('truetype');	
+      src:url("C:/Users/kishor.s.jadhav/Desktop/Kishor Jadhav Data/Cactus Communications/CatcusCommunicationTest/vendor/Roboto-ThinItalic.ttf")  format('truetype');	
+      font-weight: normal;
+      font-style: normal;
+      }
+      <!-- Font  End-->
+      ul.navbar-nav.menu {
+      <!-- height: 18px; -->
+      min-width: 401px;
+      opacity: 1;
+      color: #314584;
+      font-size: 18px;
+      font-family:Roboto-Medium;
+      }
+      nav.navbar.navbar-expand-lg.navbar-light.static-top {
+      padding: 0px;
+      }
+      .logo-img {
+      width: 8rem;
+      width: 202px;
+      height: 62px;
+      }
+      .btn-contactus{
+      color:red;
+      font-weight:bold;
+      box-shadow: 5px 5px 5px 5px #888888;
+      margin-bottom: 10px
+      }
+      .navbar-light .navbar-nav .active>.nav-link{
+      color: blue;
+      }
+      .navbar-light .navbar-nav .nav-link {
+      color: blue;
+      }
+      a.nav-link:hover {
+      border: 1px solid black;
+      }
+      ul.navbar-nav {
+      font-weight: 500;
+      }
+      .mainrow{
+      }
+      .btn-morecontactus{
+      border-radius:30px;
+      font-weight:bold;
+      color:#FFFFFF;
+      opacity:1;
+      font-size:18px;
+      font-family:Roboto-Bold;
+      }
+      .btn-getintouch{
+      border-radius:30px;
+      color:#FFFFFF;
+      font-family:Roboto-Bold;
+      opacity:1;
+      font-size:14px;
+      }
+      .mid-sec2 h3, .right-sec2 h3{
+      color:#314584;
+      font-family:Roboto-Bold;
+      font-size:27px;
+      opacity:1;
+      padding: 35px 0px;
+      }
+      .mid-sec2, .right-sec2{
+      box-shadow: 5px 5px 5px 5px #ffffff;
+      }
+      .left-sec{
+      opacity:1;
+      }
+      .right-sec h1{
+      min-height:250px;
+      padding: 60px 0px;
+      color:#314584;
+      font-size:73px;
+      
+      <!-- width:496px; -->
+      font-family:Roboto-Bold;
+      }
+      .right-sec p{
+      opacity:1;
+      color:#6E757A;
+      font-family:Roboto-Regular;
+      font-size:21px;
+      }
+      .left-sec2 h1 {
+      color:#314584;
+      opacity:1;
+      font-size:45px;
+      font-family: Roboto-Bold;
+      }
+      .left-sec2 p{
+      color:#314584;
+      opacity:1;
+      font-size:14px;
+      font-family: Roboto-Medium;
+      }
+      .mid-sec2, .right-sec2{
+      min-height:387px;
+      padding: 60px 30px;
+      border:2px solid #F0F3F4;
+      box-shadow: 10px 10px 10px 10px #F0F3F4;
+      }
+      .left-sec2{
+      min-height:387px;
+      padding: 60px 30px
+      }
+      .mainrow3 {
+      margin: 70px 0px 0px 0px;
+      }
+      .left-sec3{
+      padding: 0px 50px 0px 0px;
+      }
+      .right-sec3 .our-company{
+      font-size:18px;
+      color:#FF3946;
+      opacity:1;
+      font-family:Roboto-Medium;
+      }
+      .right-sec3 h3{
+      color:#314584;
+      font-size:48px;
+      text-align:left;
+      font-family:Roboto-Bold;
+      }
+      .right-sec3 p{
+      color:#314584;
+      font-size:18px;
+      font-family:Roboto-Regular;
+      opacity:1;
+      padding: 0px 0px 30px 0px;
+      }
+      .Right-arrow2{
+      float:right;
+      }
+      .Right-arrow3{
+      float:right;
+      }
+      .left-sec4 h3{
+      color:#314584;
+      font-size:48px;
+      fonr-family;Roboto-Bold;
+      opacity:1;
+      }
+      .left-sec5, .mid-sec5, .right-sec5{
+      height:281px;
+      <!-- width:371px; -->
+      background-color: lightgrey;
+      border: 1px solid;
+      }
+      .mainrow5, .mainrow6 {
+      padding: 50px 0px 0px 0px;
+      }
+      .left-sec5{
+      height:371;
+      width:281;
+      }
+      .see-more{
+      font-size:18px;
+      color:#FF3946;
+      opacity:1;
+      font-family:Roboto-Medium;
+      }
+      .Blog-stories{
+      font-size:18px;
+      color:#FF3946;
+      opacity:1;
+      font-family:Roboto-Medium;
+      }
+      .our-company{
+      font-size:18px;
+      color:#FF3946;
+      opacity:1;
+      font-family:Roboto-Medium;
+      }
+      .check-oue-news{
+      color:#314584;
+      font-family:Roboto-Bold;
+      font-size:48px;
+      }
+      .left-sec9, .mid-sec9, .right-sec9{
+      min-height:281px;
+      border: 2px solid;
+      box-shadow: 10px 10px 10px 10px #f0f3f4
+      }
+      .left-sec9{
+      background-color:#FF3946;
+      }
+      .mid-sec9, .right-sec9{
+      border: 2px solid #F0F3F4;
+      box-shadow: 10px 10px 10px 10px #f0f3f4;
+      }
+      .new-adventure1{
+      color:#FFFFFF;
+      font-family:Roboto-Medium;
+      font-size:18px;
+      }
+      .adventure-date1{
+      color:#FFFFFF;
+      font-family:Roboto-Medium;
+      font-size:14px;
+      }
+      .adventure-details{
+      color:#314584;
+      font-family:Roboto-Medium;
+      font-size:18px;
+      }
+      .new-adventure2{
+      color:#314584;
+      font-family:Roboto-Medium;
+      font-size:18px;
+      }
+      .adventure-date2{
+      color:#314584;
+      font-family:Roboto-Medium;
+      font-size:14px;
+      }
+      .adventure-details2{
+      color:#314584;
+      font-family:Roboto-Medium;
+      font-size:18px;
+      }
+      .your-email{
+      color:#FF3946;
+      max-width	:572px;
+      height:62px;
+      font-family:Roboto-Medium;
+      font-size:18px;
+      background-color:#ff9999;
+      border: 4px solid #FF3946;
+      }
+      .your-email::placeholder {
+      color: red;
+      }
+      .your-subject{
+      max-width	:572px;
+      height:62px;
+      font-family:Roboto-Medium;
+      font-size:18px;
+      }
+      .your-subject::placeholder {
+      color:#314584;
+      }
+      .Creativity-above{
+      color:#FF3946;
+      font-family:Roboto-Bold;
+      font-size:48px;
+      }
+      .page-footer{
+      background-color:#314584;
+      }
+      .Facebook {
+      height: 130px;
+      width: 31px;
+      }
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+   </style>
